@@ -48,7 +48,7 @@
     </repository>
     <snapshotRepository>
       <id>spring-snapshots</id>
-      <name>spring-snapshots</name>
+      <name>spring-snapshots</name>	    
       <url>http://ec2-52-15-119-199.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
