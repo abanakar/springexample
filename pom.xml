@@ -37,23 +37,16 @@
 		<version>2.5.6</version>
 	</dependency> 
   </dependencies>
-<profiles>
-<profile>
-     <id>spring-deployer</id>
  <distributionManagement>
     <repository>
-      <id>spring-releases</id>
-      <name>spring-releases</name>
-      <url>http://ec2-52-15-119-199.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/spring-releases/</url>
+      <id>devops-releases</id>
+      <name>devops-releases</name>
+      <url>http://ec2-13-58-243-32.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>spring-snapshots</id>
-      <name>spring-snapshots</name>	    
-      <url>http://ec2-52-15-119-199.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/spring-snapshots/</url>
+      <id>devops-snapshots</id>
+      <name>devops-snapshots</name>	    
+      <url>http://ec2-13-58-243-32.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
-</profile>
-	
-	
-  </profiles>
 </project>
